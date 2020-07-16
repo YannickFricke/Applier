@@ -10,6 +10,8 @@
     "devDependencies": {
         "commitizen": "^4.1.2",
         "cz-conventional-changelog": "^3.2.0",
+        "husky": ">=4",
+        "lint-staged": ">=10",
         "prettier": "^2.0.5",
         "semantic-release": "^17.1.1"
     },
@@ -21,5 +23,13 @@
     "repository": {
         "type": "git",
         "url": "https://github.com/YannickFricke/Applier.git"
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "lint-staged"
+        }
+    },
+    "lint-staged": {
+        "*.{ts,tsx,md,yml}": "prettier --write"
     }
 }
