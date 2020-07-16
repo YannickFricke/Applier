@@ -30,6 +30,6 @@
         }
     },
     "lint-staged": {
-        "*.{ts,tsx,md,yml}": "prettier --write"
+        "*.{ts,tsx,md,yml,json}": "prettier --write"
     }
 }
