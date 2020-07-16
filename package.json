@@ -1,17 +1,19 @@
 {
-  "name": "@yannickfricke/applier",
-  "version": "0.0.0",
-  "license": "MIT",
-  "scripts": {
-    "commit": "git-cz"
-  },
-  "devDependencies": {
-    "commitizen": "^4.1.2",
-    "cz-conventional-changelog": "^3.2.0"
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog/"
+    "name": "@yannickfricke/applier",
+    "version": "0.0.0",
+    "license": "MIT",
+    "scripts": {
+        "commit": "git-cz",
+        "format": "prettier --write package.json"
+    },
+    "devDependencies": {
+        "commitizen": "^4.1.2",
+        "cz-conventional-changelog": "^3.2.0",
+        "prettier": "^2.0.5"
+    },
+    "config": {
+        "commitizen": {
+            "path": "./node_modules/cz-conventional-changelog/"
+        }
     }
-  }
 }
