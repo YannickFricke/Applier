@@ -1,19 +1,25 @@
 {
     "name": "@yannickfricke/applier",
-    "version": "0.0.0",
+    "version": "0.0.0-development",
     "license": "MIT",
     "scripts": {
         "commit": "git-cz",
-        "format": "prettier --write package.json"
+        "format": "prettier --write package.json",
+        "release": "semantic-release"
     },
     "devDependencies": {
         "commitizen": "^4.1.2",
         "cz-conventional-changelog": "^3.2.0",
-        "prettier": "^2.0.5"
+        "prettier": "^2.0.5",
+        "semantic-release": "^17.1.1"
     },
     "config": {
         "commitizen": {
             "path": "./node_modules/cz-conventional-changelog/"
         }
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/YannickFricke/Applier.git"
     }
 }
