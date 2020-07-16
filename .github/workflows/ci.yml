@@ -1,0 +1,15 @@
+name: CI
+on:
+    push:
+        branches:
+            - master
+
+jobs:
+    release:
+        name: Release new version
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v2
+            - uses: codfish/semantic-release-action@master
+              env:
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

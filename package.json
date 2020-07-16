@@ -4,7 +4,7 @@
     "license": "MIT",
     "scripts": {
         "commit": "git-cz",
-        "format": "prettier --write package.json",
+        "format": "prettier --write package.json .github/workflows/",
         "release": "semantic-release"
     },
     "devDependencies": {
