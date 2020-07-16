@@ -1,3 +1,4 @@
 {
-    "branches": ["master"]
+    "branches": ["master"],
+    "npmPublish": false
 }
