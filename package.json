@@ -8,6 +8,7 @@
         "release": "semantic-release"
     },
     "devDependencies": {
+        "@semantic-release/release-notes-generator": "^9.0.1",
         "commitizen": "^4.1.2",
         "cz-conventional-changelog": "^3.2.0",
         "husky": ">=4",
