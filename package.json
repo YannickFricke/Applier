@@ -1,5 +1,5 @@
 {
-    "name": "@yannickfricke/applier",
+    "name": "root",
     "version": "0.0.0-development",
     "license": "MIT",
     "scripts": {
@@ -16,6 +16,10 @@
         "prettier": "^2.0.5",
         "semantic-release": "^17.1.1"
     },
+    "private": true,
+    "workspaces": [
+        "packages/*"
+    ],
     "config": {
         "commitizen": {
             "path": "./node_modules/cz-conventional-changelog/"
