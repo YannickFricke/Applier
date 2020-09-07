@@ -31,6 +31,6 @@
         }
     },
     "lint-staged": {
-        "*.{ts,tsx,md,yml,json}": "prettier --write"
+        "*.{ts,tsx,md,yml,json}": "yarn run format"
     }
 }
